@@ -1,0 +1,10 @@
+Ix = 7.5*10^(-3);  % Quadrotor moment of inertia around X axis
+Iy = 7.5*10^(-3);  % Quadrotor moment of inertia around Y axis
+Iz = 1.3*10^(-2);  % Quadrotor moment of inertia around Z axis
+Ir = 6.5*10^(-5);  % Total rotational moment of inertia around the propeller axis
+b = 3.13*10^(-5);  % Thrust factor
+d = 7.5*10^(-7);   % Drag factor
+l = 0.23;  % Distance to the center of the Quadrotor
+m = 0.65;  % Mass of the Quadrotor in Kg
+g = 9.81;  % Gravitational acceleration
+kx = 0.01; % Linear drag/damping coefficient along X axis
